@@ -265,9 +265,9 @@ class UnivariateBaseline():
 
         instances = {
             "ex_s":
-                self.run_ex_s(transformed_data=transformed_data),
+                self.run_ex_s(transformed_data),
             "ar_p":
-                self.run_ar_p(transformed_data=transformed_data)}
+                self.run_ar_p(transformed_data)}
 
         # Finish timing;
         # finish = time.perf_counter()
